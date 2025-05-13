@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Important Items</h2>
+        <ol type="I">
+            <li>Complete the registration form</li>
+            <li>Check contact details</li>
+            <li>View external image</li>
+            <li>Submit necessary details</li>
+            <li>Confirm everything is correct</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Inspiration Image</h2>
+        <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Beautiful nature scene from Pexels" width="600">
+        <p>Image sourced from <a href="https://www.pexels.com" target="_blank">Pexels</a>.</p>
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>123 Main St, NY</td>
+                    <td>+1 234 567 890</td>
+                    <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Smith</td>
+                    <td>456 Elm St, CA</td>
+                    <td>+1 987 654 321</td>
+                    <td>bob@example.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie Brown</td>
+                    <td>789 Oak St, TX</td>
+                    <td>+1 345 678 901</td>
+                    <td>charlie@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Lee</td>
+                    <td>321 Pine St, FL</td>
+                    <td>+1 654 321 098</td>
+                    <td>david@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emma Watson</td>
+                    <td>741 Maple St, WA</td>
+                    <td>+1 567 890 123</td>
+                    <td>emma@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <fieldset>
+                <legend>Choose your subscription plan:</legend>
+                <input type="radio" id="basic" name="subscription" value="basic">
+                <label for="basic">Basic Plan</label>
+                <input type="radio" id="premium" name="subscription" value="premium">
+                <label for="premium">Premium Plan</label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Select your interests:</legend>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="design" name="interests" value="design">
+                <label for="design">Design</label>
+                <input type="checkbox" id="marketing" name="interests" value="marketing">
+                <label for="marketing">Marketing</label>
+            </fieldset>
+            <br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
